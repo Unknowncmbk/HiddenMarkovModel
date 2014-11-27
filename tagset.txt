@@ -1,0 +1,31 @@
+The data you are using is the SUSANNE corpus, compiled by Gregory Sampson et
+al., which is in turn an annotated version of parts of the Brown corpus.  The
+primary advantage of this over the Wall Street Journal corpus I discussed in
+class is that it is available for free download.  The Susanne corpus comes with
+a number of annotations, including part-of-speech.  The tagset of the corpus is
+quite complex, with several hundred categories.  The tagset is hierarchical,
+however, and so I have chosen to collapse it to its highest categories to make
+analyzing your data more straightforward.  In general I did this collapse by
+removing all but the first letter of the original tag; I have also combined a
+few categories together where I thought it would make more sense to you.
+
+This is the tagset in the data for this assignment.
+C = conjunction
+D = determiner (also includes original A tags)
+E = existential there (as in "there is a fly in my soup")
+F = non-words (suffixes, prefixes, acronyms, zipcodes, foreign word, ...)
+G = 's when used to indicate possession (as in "Dr. Breck's office is 419")
+I = preposition (also includes original B tags)
+J = adjective
+L = "pre-coordinator" (look in the data for examples)
+M = numeral
+N = noun
+P = pronoun
+R = adverb
+T = the word 'to' when used to introduce an infinitive verb
+U = interjection
+V = verb
+X = the word 'not' (most uses)
+Y = punctuation mark
+Z = letter of the alphabet
+<s> = a special word and tag indicating the end of a sentence.
